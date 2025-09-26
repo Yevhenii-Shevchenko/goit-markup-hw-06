@@ -905,6 +905,9 @@ button {
     column-gap: 14px;
   }
   /* ------------/Our Team Style---------------- */
+
+  /* -------------Our Portfolio Style----------- */
+  /* -------------/Our Portfolio Style----------- */
 }
 
 @media screen and (min-width: 1158px) {
@@ -938,6 +941,8 @@ button {
     font-weight: 400;
   }
   /* -------------/Our Benefits Style----------- */
+
+  /* ------------Our Team Style---------------- */
   .container-test {
     max-width: 1158px;
     padding: 0 15px;
@@ -951,7 +956,10 @@ button {
     width: calc((100% - 72px) / 4);
     column-gap: 14px;
   }
-  /* ------------Our Team Style---------------- */
 
   /* ------------/Our Team Style---------------- */
+
+  /* -------------Our Portfolio Style----------- */
+
+  /* -------------/Our Portfolio Style----------- */
 }
