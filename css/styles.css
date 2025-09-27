@@ -495,7 +495,7 @@ button {
 /* ----------------Footer Style--------------------*/
 .footer-section {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 
 .footer-logo .logo-part {
@@ -526,15 +526,24 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+
+  text-align: center;
 }
 
 .container-footer {
   display: flex;
-  align-items: baseline;
+  /* align-items: baseline; */
+
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
 .webstudio-foter {
-  margin-right: 120px;
+  /* margin-right: 120px; */
+
+  display: block;
+  text-align: center;
 }
 
 .footer-social-icons-list {
@@ -569,13 +578,20 @@ button {
 
 /* ========== foter email */
 .container-foter-email {
-  margin-left: 80px;
+  /* margin-left: 80px; */
+
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-form {
   display: flex;
   align-items: center;
-  gap: 24px;
+  /* gap: 24px; */
+
+  gap: 16px;
+
+  flex-direction: column;
 }
 
 .footer-email-text {
@@ -585,6 +601,8 @@ button {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
+
+  text-align: center;
 }
 
 .footer-form-email {
@@ -927,6 +945,10 @@ button {
   }
 
   /* -------------/Our Portfolio Style----------- */
+
+  /* ----------------Footer Style--------------------*/
+
+  /* ----------------/Footer Style--------------------*/
 }
 
 @media screen and (min-width: 1158px) {
@@ -1001,4 +1023,8 @@ button {
   }
 
   /* -------------/Our Portfolio Style----------- */
+
+  /* ----------------Footer Style--------------------*/
+
+  /* ----------------/Footer Style--------------------*/
 }
