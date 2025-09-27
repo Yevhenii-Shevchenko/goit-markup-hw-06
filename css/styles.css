@@ -542,7 +542,7 @@ button {
 .webstudio-foter {
   /* margin-right: 120px; */
 
-  display: block;
+  /* display: block; */
   text-align: center;
 }
 
@@ -947,7 +947,30 @@ button {
   /* -------------/Our Portfolio Style----------- */
 
   /* ----------------Footer Style--------------------*/
+  .container-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+    align-items: baseline;
+    padding-left: 108px;
+  }
 
+  .webstudio-foter {
+    text-align: left;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-social-media-text {
+    text-align: left;
+  }
+
+  .footer-email-text {
+    text-align: left;
+  }
   /* ----------------/Footer Style--------------------*/
 }
 
@@ -1025,6 +1048,22 @@ button {
   /* -------------/Our Portfolio Style----------- */
 
   /* ----------------Footer Style--------------------*/
+  .footer-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
+  .container-footer {
+    flex-wrap: nowrap;
+    column-gap: unset;
+  }
+
+  .webstudio-foter {
+    margin-right: 120px;
+  }
+
+  .container-foter-email {
+    margin-left: 80px;
+  }
   /* ----------------/Footer Style--------------------*/
 }
