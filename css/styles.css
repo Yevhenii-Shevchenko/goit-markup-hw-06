@@ -31,6 +31,8 @@ a {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* ---------/reset----------*/
 
@@ -89,6 +91,8 @@ button {
 .header-container {
   display: flex;
   align-items: center;
+
+  justify-content: space-between;
 }
 
 .header-nav {
@@ -107,8 +111,11 @@ button {
 }
 
 .header-logo {
-  padding: 24px 0;
-  margin-right: 76px;
+  /* padding: 24px 0;
+  margin-right: 76px; */
+
+  padding: 16px 0;
+  display: block;
 }
 
 .header-logo .logo-part {
@@ -116,9 +123,11 @@ button {
 }
 
 .nav-list {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 40px; */
+
+  display: none;
 }
 
 .nav-link {
@@ -153,17 +162,21 @@ button {
 .contacts {
   font-style: normal;
   margin-left: auto;
+
+  display: none;
 }
 
 .contacts-list {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 40px; */
+
+  display: block;
 }
 
 .contacts-link {
   display: block;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -178,6 +191,17 @@ button {
 .contacts-link:focus,
 .nav-link.current {
   color: #404bbf;
+}
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.burger-icon {
+  display: block;
+  fill: #2f2f37;
 }
 
 /* ----------/Header------------    */
@@ -428,12 +452,6 @@ button {
 
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: 100%;
-}
-
-.portfolio-item-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .portfolio-item-container {
@@ -902,10 +920,44 @@ button {
 /* ----------------/Modal Backdrop Style--------------------*/
 
 @media screen and (min-width: 768px) {
-  /* -------------Our Benefits Style----------- */
   .container {
     max-width: 768px;
   }
+  /* ----------Header------------    */
+  .header-logo {
+    padding: 24px 0;
+    margin-right: 120px;
+  }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contacts {
+    font-style: normal;
+    display: block;
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .contacts-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+  }
+  /* ----------/Header----------------------    */
+
+  /* -------------Our Benefits Style----------- */
 
   .benefits-item {
     width: calc((100% - 24px) / 2);
@@ -984,6 +1036,26 @@ button {
     padding-top: 120px;
     padding-bottom: 120px;
   }
+
+  /* ---------------Header----------------------    */
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .contacts-list {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contacts-link {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /* --------------/Header----------------------    */
+
   /* -------------Our Benefits Style----------- */
 
   .benefits-item {
