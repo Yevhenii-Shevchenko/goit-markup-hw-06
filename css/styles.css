@@ -328,16 +328,15 @@ button {
     ),
     url(../images/hero-background.jpg);
 
-    @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-background-2x.jpg);
   }
-      
 }
-}
+
 .hero-h-one {
   font-weight: 700;
   /* font-size: 56px; */
