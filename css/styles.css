@@ -311,8 +311,8 @@ button {
 /* ----------Hero--------------    */
 .hero-section {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -324,19 +324,27 @@ button {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
+
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 .hero-h-one {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  /* font-size: 56px; */
+  /* line-height: 1.07; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 496px;
-  margin-bottom: 48px;
+  /* max-width: 496px; */
+  /* margin-bottom: 48px; */
   margin-left: auto;
   margin-right: auto;
+
+  font-size: 36px;
+  line-height: 1.11;
+  margin-bottom: 72px;
+  max-width: 216px;
 }
 
 .hero-button {
@@ -1066,6 +1074,20 @@ button {
 
   /* ----------/Header----------------------    */
 
+  /* ------------- HERO ---------------------------*/
+  .hero-section {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+
+  .hero-h-one {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+  /* /HERO */
+
   /* -------------Our Benefits Style----------- */
 
   .benefits-item {
@@ -1169,6 +1191,17 @@ button {
     letter-spacing: 0.02em;
   }
   /* --------------/Header----------------------    */
+
+  /* ------------- HERO ---------------------------*/
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .hero-h-one {
+    margin-bottom: 48px;
+  }
+
+  /* ------------- /HERO ---------------------------*/
 
   /* -------------Our Benefits Style----------- */
 
