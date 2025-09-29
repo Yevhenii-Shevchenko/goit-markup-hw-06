@@ -296,6 +296,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .mobile-menu-contacts-span {
@@ -326,14 +327,14 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-background.jpg);
+    url(../images/background-mob.jpg);
 
   @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-background-2x.jpg);
+      url(../images/background-mob-2x.jpg);
   }
 }
 
@@ -649,6 +650,7 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  text-align: left;
 }
 
 .social-media-icons {
@@ -747,7 +749,7 @@ button {
   letter-spacing: 0.04em;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
@@ -1086,6 +1088,20 @@ button {
   .hero-section {
     padding-top: 112px;
     padding-bottom: 112px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background-tab.jpg);
+
+    @media screen and (min-resolution: 2x),
+      (-webkit-min-device-pixel-ratio: 2) {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background-tab-2x.jpg);
+    }
   }
 
   .hero-h-one {
@@ -1100,6 +1116,10 @@ button {
 
   .benefits-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .benefits-h-three {
+    text-align: left;
   }
 
   .benefits-list {
@@ -1159,6 +1179,10 @@ button {
     text-align: left;
   }
 
+  .footer-form-email {
+    width: 264px;
+  }
+
   .footer-email-text {
     text-align: left;
   }
@@ -1204,6 +1228,20 @@ button {
   .hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-background.jpg);
+
+    @media screen and (min-resolution: 2x),
+      (-webkit-min-device-pixel-ratio: 2) {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-background-2x.jpg);
+    }
   }
   .hero-h-one {
     margin-bottom: 48px;
